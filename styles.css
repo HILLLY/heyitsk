@@ -1,0 +1,141 @@
+/* Romantic color scheme */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f3a0cc, #ffcccc);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  header {
+    background-color: rgba(255, 192, 203, 0.9); /* Light pink header */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ff9999; /* Coral pink button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  .messageBox {
+    margin-top: 30px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #message {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  footer {
+    background-color: rgba(255, 192, 203, 0.9); /* Light pink footer */
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+  }
+/* Basic styling with revised color suggestions */
+
+/* Soft and Pleasant Colors */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6; /* Soft pinkish background */
+  }
+  
+  header {
+    background-color: #f38181; /* Light coral pink header */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #fca311; /* Bright orange button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  .animatedElement {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc5c; /* Yellowish box */
+    margin-top: 50px;
+    border-radius: 50%;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  footer {
+    background-color: #fca311; /* Bright orange footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+/* Updated animation for .animatedElement */
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animatedElement {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc5c; /* Yellowish box */
+    margin-top: 50px;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+  }
+      
